@@ -115,12 +115,7 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: [
-        "Início",
-        "Serviços",
-        "Sobre Nós",
-        "Perguntas Frequentes",
-      ],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
       menuId: ["home", "service", "about", "faq"],
 
       ctaButtonText: "Contato",
@@ -229,8 +224,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Cível",
-        subtitle: "Resolvendo conflitos e protegendo seus interesses.",
+        title: "Prisão em Flagrante e Audiência de Custódia",
+        subtitle: "Atuação rápida para preservar sua liberdade imediata.",
         description: (
           <div>
             A_Definir
@@ -251,13 +246,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-shield-alert-icon lucide-shield-alert"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M12 8v4" />
+            <path d="M12 16h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -265,8 +258,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Prisão em Flagrante",
-        subtitle: "Atuação rápida para preservar sua liberdade imediata.",
+        title: "Direito Cível",
+        subtitle: "Resolvendo conflitos e protegendo seus interesses.",
         description: (
           <div>
             A_Definir <br />
@@ -320,12 +313,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-list-check-icon lucide-list-check"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="M11 18H3" />
-            <path d="m15 18 2 2 4-4" />
-            <path d="M16 12H3" />
-            <path d="M16 6H3" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
