@@ -53,7 +53,7 @@ export const infos = {
   name: "Dr. Silvano Sabino",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "drsalvanosabino.com.br", // Sem "www"
+  domain: "drsilvanosabino.com.br", // Sem "www"
   phone: {
     ddd: "11",
     firstPart: "98505", // Apenas os 5 primeiros números (incluindo o 9)
